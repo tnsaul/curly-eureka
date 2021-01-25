@@ -11,6 +11,10 @@ What is in this prototype:
 4. A slow PWM driven LED called "Office Strobe Slow" using https://esphome.io/components/output/slow_pwm.html
 5. Two Motor Controller custom code items using the WEMOS Motor Driver which is just a H-Bridge controller in the end.  This was a tes for driving Christmas LED strings, those with alternating polarity LEDs.  I have several sitting around after their controllers died after one season.  The idea is to control them as garden lighting (someday).
 
+### Temperature
+The code attempts to calculate the "apparent" temperature from https://planetcalc.com/2089/
+However it is currently not giving a reasonable value on overcast and raining days - likely dufus (me) error in the calculation or understanding of how it should be done.
+
 ## Compiling etc.
 You will need to install ESP Home and Home Assistant if you want to use this.
 
