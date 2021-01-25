@@ -23,4 +23,5 @@ ESP Home needs to be compiled in the CLI in a terminal (well for me at least) us
 `esphome curly_eureka_1.yaml compile`
 
 To deploy it to a connects D1 Mini use:
+
 `esphome curly_eureka_1.yaml run`
